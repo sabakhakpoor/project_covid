@@ -5,15 +5,6 @@ body {
 ul {
   padding: 0;
 }
-
-/* .container {
-  max-width: 80rem;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 4rem;
-  padding-left: 4rem;
-} */
-
 .header {
   background-color: rgba(241, 247, 255, 1);
   height: 519px;
@@ -25,9 +16,6 @@ ul {
   align-items: center;
   justify-content: space-between;
   position: relative;
-}
-.nav_logo {
-  /* position: absolute; */
 }
 .menu {
   list-style-type: none;
@@ -47,9 +35,6 @@ ul {
   font-size: 1.8rem;
   display: none;
   cursor: pointer;
-}
-/* header bottom */
-.header__bottom {
 }
 .header__content {
   display: flex;
@@ -93,11 +78,6 @@ ul {
 .header_content__image {
   position: absolute;
   right: 10%;
-  /* top: -50px; */
-}
-
-/* start main */
-.main {
 }
 .container {
   text-align: center;
@@ -113,28 +93,17 @@ ul {
 .works__title {
   color: rgba(0, 0, 0, 0.41);
 }
-.works__content {
-}
-.work_content__item {
-}
 .work_content__txt {
   color: rgba(0, 0, 0, 1);
 }
 .work_content__model {
   color: rgba(0, 0, 0, 1);
 }
-
-/* secand main */
-
 .person-comments {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 6rem;
-}
-.person-comments-left {
-}
-.person-comments-right {
 }
 .person-comments-title {
   color: #6200de;
@@ -156,21 +125,16 @@ ul {
   border-radius: 2rem;
   text-decoration: none;
 }
-
 .person-logo {
   display: flex;
   align-items: center;
 }
-
-/* second person */
-
 .person-comments-two {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 6rem;
 }
-
 .person-comments-two-right {
   margin-left: 9rem;
 }
@@ -197,18 +161,6 @@ ul {
   border-radius: 2rem;
   text-decoration: none;
 }
-
-/* .person-comments-two-yes-logo{
- display: flex;
- flex-direction: column;
- height: 2rem;
- width: 2rem;
- margin-top: -5rem;
- color: #6200DE;
-} */
-
-/* logo-line */
-
 .logo-line {
   display: flex;
   justify-content: space-around;
@@ -224,7 +176,6 @@ ul {
 .second-logo {
   display: flex;
   align-items: center;
-  /* margin-left: 3rem; */
 }
 .second-logo-two {
   display: flex;
@@ -262,18 +213,11 @@ ul {
 .logo-line-padding {
   margin-bottom: -8rem;
 }
-/* section 4 */
 .flex-container {
   display: flex;
   justify-content: space-evenly;
   margin-top: 5rem;
 }
-/* .flex-container-left{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 2rem;
-} */
-
 .flex-item {
   box-sizing: border-box;
   box-shadow: 0.2rem 0.2rem 0.2rem rgb(223, 220, 220);
@@ -298,9 +242,6 @@ ul {
 .flex-item-two {
   margin-bottom: 3rem;
 }
-/* .margin-class {
-  margin-top: 3rem;
-} */
 .ishalah-beshe {
   margin-top: 1rem;
 }
@@ -357,8 +298,6 @@ ul {
   justify-content: center;
   color: #6200de;
 }
-
-/* section 5 */
 .capsion {
   text-align: center;
   margin-top: 6rem;
@@ -374,8 +313,6 @@ ul {
   justify-content: space-evenly;
   margin-top: 3rem;
 }
-.capsion-child {
-}
 .capsion-child-title {
   color: #6200de;
 }
@@ -386,9 +323,6 @@ ul {
 .capsion-image {
   margin-top: -2.5rem;
 }
-
-/* last-main */
-
 .last-main {
   text-align: center;
   margin-top: 4rem;
@@ -396,9 +330,6 @@ ul {
   width: 100%;
   height: 35rem;
 }
-/* text-align: center;
-  margin-top: 4rem; */
-
 .last-main-header {
   color: #6200de;
 }
@@ -435,16 +366,8 @@ ul {
   color: rgba(0, 0, 0, 0.41);
   padding-bottom: 5rem;
 }
-
 .last-main-image {
   align-items: end;
-}
-.container1 {
-}
-
-/* footer */
-
-.footer {
 }
 .newsletter {
   text-align: center;
@@ -461,13 +384,8 @@ ul {
   justify-content: space-evenly;
   margin-top: 3rem;
 }
-.footer-first-logo {
-  /* display: flex; */
-}
 .footer-first-text {
   color: rgba(0, 0, 0, 0.41);
-}
-.footer-last-logo {
 }
 .footer-second-text {
   color: rgba(0, 0, 0, 0.41);
@@ -475,7 +393,6 @@ ul {
 .footer-last-text {
   color: #6200de;
 }
-
 .logos-one {
   display: flex;
   flex-wrap: wrap;
@@ -488,7 +405,6 @@ ul {
   margin-top: -3.4rem;
   align-items: center;
 }
-
 .logos-two {
   display: flex;
   flex-wrap: wrap;
@@ -501,7 +417,6 @@ ul {
   margin-top: -3.4rem;
   align-items: center;
 }
-
 .logos-three {
   display: flex;
   flex-wrap: wrap;
@@ -514,9 +429,6 @@ ul {
   margin-top: -3.4rem;
   align-items: center;
 }
-
-/* responsive */
-
 @media only screen and (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -598,7 +510,6 @@ ul {
     margin-top: -0.001rem;
   }
   .newsletter-title {
-    /* display: none; */
     margin-top: 3rem;
   }
   .newsletter-text {
@@ -609,9 +520,6 @@ ul {
   }
   .firs-tags-three {
     display: none;
-  }
-  .firs-tags-two {
-    /* margin-top: 2rem; */
   }
   .firs-tags-two-image {
     width: 30rem;
